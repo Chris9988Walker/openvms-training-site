@@ -156,3 +156,4 @@ A user cannot create files despite having quota.
 ## Answer Key
 The answer key for this module is located at:  
 `answers/module3-answers.md`
+<script src="/assets/js/quiz.js"></script>
