@@ -1,11 +1,10 @@
+---
 title: OpenVMS Training Suite
 description: Comprehensive System Engineering Training for OpenVMS
 remote_theme: just-the-docs/just-the-docs
-
-just_the_docs: 
+just_the_docs:
   aux_scripts:
     - /assets/js/quiz.js
-    
 search_enabled: true
 nav_order: 1
 baseurl: ""
