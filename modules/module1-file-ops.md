@@ -95,4 +95,47 @@ This module covers essential OpenVMS file and directory operations used daily by
 ### **Exercise 5 — Perform a BACKUP Operation**
 1. Create a test directory with files.  
 2. Run a directory‑level backup:  
-   `BACKUP [.TEST...]*.* TEST.BCK
+     `BACKUP [.TEST...]*.* TEST.BCK/SAVE/LOG`
+3. Restore the saveset to a new directory.  
+   `BACKUP TEST.BCK [.RESTORE]/LOG`
+
+---
+
+## Scenario‑Based Troubleshooting Challenges
+
+### **Scenario 1 — Missing File**
+A user claims a file named `RUN.LOG` “disappeared.”  
+You must locate it.
+
+**Expected approach:**  
+- Use recursive DIRECTORY  
+- Check for versioning  
+- Check for accidental renames  
+- Check for protection issues
+
+---
+
+### **Scenario 2 — Disk Filling Up**
+A volume is nearly full.  
+You must identify large files and old versions.
+
+**Expected approach:**  
+- `DIRECTORY/SIZE=ALL`  
+- `DIRECTORY [...]*.*;*`  
+- `PURGE`  
+- `SHOW DEVICE/FULL`
+
+---
+
+### **Scenario 3 — Incorrect File Format**
+An application fails because a file has the wrong record format.
+
+**Expected approach:**  
+- `SHOW FILE/FULL`  
+- Identify record format mismatch  
+- Use CONVERT/FDL to rebuild  
+
+---
+
+## Answer Key
+Answers are included inline with each question.
