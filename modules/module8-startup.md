@@ -158,3 +158,4 @@ Shutdown hangs waiting for processes.
 ## Answer Key
 The answer key for this module is located at:  
 `answers/module8-answers.md`
+<script src="/assets/js/quiz.js"></script>
