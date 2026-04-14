@@ -13,35 +13,55 @@ This module covers DCL scripting fundamentals, including symbols, lexical functi
 
 ## Exam: Multiple‑Choice Questions
 
-1. **Which symbol type is local to a command procedure?**  
-   - A. Global symbol  
-   - B. Local symbol  
-   - C. System symbol  
-   - D. Process symbol  
+<div class="quiz-question">
+  <p><strong>1. Which symbol type is local to a command procedure?</strong></p>
+  <label><input type="radio" name="m5q1" value="A"> Global symbol</label><br>
+  <label><input type="radio" name="m5q1" value="B"> Local symbol</label><br>
+  <label><input type="radio" name="m5q1" value="C"> System symbol</label><br>
+  <label><input type="radio" name="m5q1" value="D"> Process symbol</label><br>
+  <button class="check-answer" data-question="m5q1" data-correct="B">Check Answer</button>
+  <p id="m5q1-feedback" class="quiz-feedback"></p>
+</div>
 
-2. **Which command executes a DCL command procedure?**  
-   - A. @filename  
-   - B. RUN filename  
-   - C. EXEC filename  
-   - D. DO filename  
+<div class="quiz-question">
+  <p><strong>2. Which command executes a DCL command procedure?</strong></p>
+  <label><input type="radio" name="m5q2" value="A"> @filename</label><br>
+  <label><input type="radio" name="m5q2" value="B"> RUN filename</label><br>
+  <label><input type="radio" name="m5q2" value="C"> EXEC filename</label><br>
+  <label><input type="radio" name="m5q2" value="D"> DO filename</label><br>
+  <button class="check-answer" data-question="m5q2" data-correct="A">Check Answer</button>
+  <p id="m5q2-feedback" class="quiz-feedback"></p>
+</div>
 
-3. **Which lexical function returns the current process name?**  
-   - A. F$PROCESS  
-   - B. F$GETJPI  
-   - C. F$IDENTIFIER  
-   - D. F$STRING  
+<div class="quiz-question">
+  <p><strong>3. Which lexical function returns the current process name?</strong></p>
+  <label><input type="radio" name="m5q3" value="A"> F$PROCESS</label><br>
+  <label><input type="radio" name="m5q3" value="B"> F$GETJPI</label><br>
+  <label><input type="radio" name="m5q3" value="C"> F$IDENTIFIER</label><br>
+  <label><input type="radio" name="m5q3" value="D"> F$STRING</label><br>
+  <button class="check-answer" data-question="m5q3" data-correct="A">Check Answer</button>
+  <p id="m5q3-feedback" class="quiz-feedback"></p>
+</div>
 
-4. **Which command submits a command procedure to a batch queue?**  
-   - A. RUN/BATCH  
-   - B. SUBMIT  
-   - C. QUEUE/EXECUTE  
-   - D. START/BATCH  
+<div class="quiz-question">
+  <p><strong>4. Which command submits a command procedure to a batch queue?</strong></p>
+  <label><input type="radio" name="m5q4" value="A"> RUN/BATCH</label><br>
+  <label><input type="radio" name="m5q4" value="B"> SUBMIT</label><br>
+  <label><input type="radio" name="m5q4" value="C"> QUEUE/EXECUTE</label><br>
+  <label><input type="radio" name="m5q4" value="D"> START/BATCH</label><br>
+  <button class="check-answer" data-question="m5q4" data-correct="B">Check Answer</button>
+  <p id="m5q4-feedback" class="quiz-feedback"></p>
+</div>
 
-5. **Which DCL feature allows you to detect and handle errors within a script?**  
-   - A. SET CONTROL  
-   - B. ON ERROR THEN  
-   - C. IF $STATUS  
-   - D. WHEN FAILURE DO  
+<div class="quiz-question">
+  <p><strong>5. Which DCL feature allows you to detect and handle errors within a script?</strong></p>
+  <label><input type="radio" name="m5q5" value="A"> SET CONTROL</label><br>
+  <label><input type="radio" name="m5q5" value="B"> ON ERROR THEN</label><br>
+  <label><input type="radio" name="m5q5" value="C"> IF $STATUS</label><br>
+  <label><input type="radio" name="m5q5" value="D"> WHEN FAILURE DO</label><br>
+  <button class="check-answer" data-question="m5q5" data-correct="C">Check Answer</button>
+  <p id="m5q5-feedback" class="quiz-feedback"></p>
+</div>
 
 ---
 
