@@ -13,36 +13,55 @@ This module covers essential OpenVMS disk and volume management tasks, including
 
 ## Exam: Multiple‑Choice Questions
 
-1. **Which command displays detailed information about a disk, including mount status, volume label, and allocation?**  
-   - A. SHOW VOLUME  
-   - B. SHOW DEVICE/FULL  
-   - C. SHOW STORAGE  
-   - D. SHOW DISK/ALL  
+<div class="quiz-question">
+  <p><strong>1. Which command displays detailed information about a disk device?</strong></p>
+  <label><input type="radio" name="m3q1" value="A"> SHOW DEVICE</label><br>
+  <label><input type="radio" name="m3q1" value="B"> SHOW DEVICE/FULL</label><br>
+  <label><input type="radio" name="m3q1" value="C"> SHOW VOLUME</label><br>
+  <label><input type="radio" name="m3q1" value="D"> ANALYZE/DISK</label><br>
+  <button class="check-answer" data-question="m3q1" data-correct="B">Check Answer</button>
+  <p id="m3q1-feedback" class="quiz-feedback"></p>
+</div>
 
-2. **Which command mounts a volume named DATA on device DKA200:?**  
-   - A. MOUNT DKA200:  
-   - B. MOUNT/FOREIGN DKA200: DATA  
-   - C. MOUNT DKA200: DATA  
-   - D. SET VOLUME DKA200: DATA  
+<div class="quiz-question">
+  <p><strong>2. Which command mounts a disk with the label DATA?</strong></p>
+  <label><input type="radio" name="m3q2" value="A"> MOUNT DATA DKA200:</label><br>
+  <label><input type="radio" name="m3q2" value="B"> MOUNT/FOREIGN DKA200:</label><br>
+  <label><input type="radio" name="m3q2" value="C"> MOUNT DKA200: DATA</label><br>
+  <label><input type="radio" name="m3q2" value="D"> MOUNT/LABEL=DATA</label><br>
+  <button class="check-answer" data-question="m3q2" data-correct="C">Check Answer</button>
+  <p id="m3q2-feedback" class="quiz-feedback"></p>
+</div>
 
-3. **Which BACKUP operation creates a full, bootable copy of a disk?**  
-   - A. BACKUP/VERIFY  
-   - B. BACKUP/IMAGE  
-   - C. BACKUP/SAVE  
-   - D. BACKUP/PHYSICAL  
+<div class="quiz-question">
+  <p><strong>3. Which command performs a full image backup of a disk?</strong></p>
+  <label><input type="radio" name="m3q3" value="A"> BACKUP/PHYSICAL</label><br>
+  <label><input type="radio" name="m3q3" value="B"> BACKUP/IMAGE</label><br>
+  <label><input type="radio" name="m3q3" value="C"> BACKUP/LOG</label><br>
+  <label><input type="radio" name="m3q3" value="D"> BACKUP/VERIFY</label><br>
+  <button class="check-answer" data-question="m3q3" data-correct="B">Check Answer</button>
+  <p id="m3q3-feedback" class="quiz-feedback"></p>
+</div>
 
-4. **Which command displays disk quota usage for a specific user?**  
-   - A. SHOW QUOTA  
-   - B. SHOW USER/QUOTA  
-   - C. SHOW DEVICE/QUOTA  
-   - D. SHOW VOLUME/QUOTA  
+<div class="quiz-question">
+  <p><strong>4. Which command displays disk quota information?</strong></p>
+  <label><input type="radio" name="m3q4" value="A"> SHOW QUOTA</label><br>
+  <label><input type="radio" name="m3q4" value="B"> SHOW DEVICE/QUOTA</label><br>
+  <label><input type="radio" name="m3q4" value="C"> SHOW VOLUME/QUOTA</label><br>
+  <label><input type="radio" name="m3q4" value="D"> ANALYZE/QUOTA</label><br>
+  <button class="check-answer" data-question="m3q4" data-correct="A">Check Answer</button>
+  <p id="m3q4-feedback" class="quiz-feedback"></p>
+</div>
 
-5. **Which command safely dismounts a volume?**  
-   - A. DISK/UNLOAD  
-   - B. DISMOUNT  
-   - C. SET DEVICE/OFFLINE  
-   - D. REMOVE VOLUME  
-
+<div class="quiz-question">
+  <p><strong>5. Which command safely removes a mounted disk?</strong></p>
+  <label><input type="radio" name="m3q5" value="A"> REMOVE DKA200:</label><br>
+  <label><input type="radio" name="m3q5" value="B"> DISMOUNT</label><br>
+  <label><input type="radio" name="m3q5" value="C"> UNMOUNT DKA200:</label><br>
+  <label><input type="radio" name="m3q5" value="D"> DISK/REMOVE</label><br>
+  <button class="check-answer" data-question="m3q5" data-correct="B">Check Answer</button>
+  <p id="m3q5-feedback" class="quiz-feedback"></p>
+</div>
 ---
 
 ## Hands‑On Exercises
