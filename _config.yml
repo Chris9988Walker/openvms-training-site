@@ -1,6 +1,6 @@
 title: OpenVMS Training Suite
 description: Comprehensive System Engineering Training for OpenVMS
-theme: just-the-docs
+remote_theme: just-the-docs
 
 search_enabled: true
 nav_order: 1
