@@ -152,3 +152,4 @@ Writes fail with “record slot unavailable.”
 ## Answer Key
 The answer key for this module is located at:  
 `answers/module7-answers.md`
+<script src="/assets/js/quiz.js"></script>
