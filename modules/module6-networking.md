@@ -13,36 +13,55 @@ This module covers OpenVMS networking fundamentals, including TCP/IP Services, D
 
 ## Exam: Multiple‑Choice Questions
 
-1. **Which command displays the current TCP/IP network interfaces and their status?**  
-   - A. SHOW NETWORK  
-   - B. TCPIP SHOW INTERFACE  
-   - C. SHOW DEVICE/NETWORK  
-   - D. NETSTAT/SHOW  
+<div class="quiz-question">
+  <p><strong>1. Which command displays the current TCP/IP network interfaces and their status?</strong></p>
+  <label><input type="radio" name="m6q1" value="A"> SHOW NETWORK</label><br>
+  <label><input type="radio" name="m6q1" value="B"> TCPIP SHOW INTERFACE</label><br>
+  <label><input type="radio" name="m6q1" value="C"> SHOW DEVICE/NETWORK</label><br>
+  <label><input type="radio" name="m6q1" value="D"> NETSTAT/SHOW</label><br>
+  <button class="check-answer" data-question="m6q1" data-correct="B">Check Answer</button>
+  <p id="m6q1-feedback" class="quiz-feedback"></p>
+</div>
 
-2. **Which utility is used to manage cluster‑wide parameters and operations?**  
-   - A. SYSGEN  
-   - B. SYSMAN  
-   - C. AUTHORIZE  
-   - D. CLUSTER_CONFIG  
+<div class="quiz-question">
+  <p><strong>2. Which utility is used to manage cluster‑wide parameters and operations?</strong></p>
+  <label><input type="radio" name="m6q2" value="A"> SYSGEN</label><br>
+  <label><input type="radio" name="m6q2" value="B"> SYSMAN</label><br>
+  <label><input type="radio" name="m6q2" value="C"> AUTHORIZE</label><br>
+  <label><input type="radio" name="m6q2" value="D"> CLUSTER_CONFIG</label><br>
+  <button class="check-answer" data-question="m6q2" data-correct="B">Check Answer</button>
+  <p id="m6q2-feedback" class="quiz-feedback"></p>
+</div>
 
-3. **Which command displays the current node’s cluster membership status?**  
-   - A. SHOW CLUSTER  
-   - B. SHOW SYSTEM/CLUSTER  
-   - C. SHOW NODE  
-   - D. SHOW MEMBERSHIP  
+<div class="quiz-question">
+  <p><strong>3. Which command displays the current node’s cluster membership status?</strong></p>
+  <label><input type="radio" name="m6q3" value="A"> SHOW CLUSTER</label><br>
+  <label><input type="radio" name="m6q3" value="B"> SHOW SYSTEM/CLUSTER</label><br>
+  <label><input type="radio" name="m6q3" value="C"> SHOW NODE</label><br>
+  <label><input type="radio" name="m6q3" value="D"> SHOW MEMBERSHIP</label><br>
+  <button class="check-answer" data-question="m6q3" data-correct="A">Check Answer</button>
+  <p id="m6q3-feedback" class="quiz-feedback"></p>
+</div>
 
-4. **Which protocol is responsible for lock management in an OpenVMS cluster?**  
-   - A. TCP/IP  
-   - B. DECnet  
-   - C. Distributed Lock Manager (DLM)  
-   - D. LAT  
+<div class="quiz-question">
+  <p><strong>4. Which protocol is responsible for lock management in an OpenVMS cluster?</strong></p>
+  <label><input type="radio" name="m6q4" value="A"> TCP/IP</label><br>
+  <label><input type="radio" name="m6q4" value="B"> DECnet</label><br>
+  <label><input type="radio" name="m6q4" value="C"> Distributed Lock Manager (DLM)</label><br>
+  <label><input type="radio" name="m6q4" value="D"> LAT</label><br>
+  <button class="check-answer" data-question="m6q4" data-correct="C">Check Answer</button>
+  <p id="m6q4-feedback" class="quiz-feedback"></p>
+</div>
 
-5. **Which command displays active DECnet circuits?**  
-   - A. NCP SHOW CIRCUIT  
-   - B. DECNET SHOW LINKS  
-   - C. NET SHOW DECNET  
-   - D. SHOW NETWORK/DECNET  
-
+<div class="quiz-question">
+  <p><strong>5. Which command displays active DECnet circuits?</strong></p>
+  <label><input type="radio" name="m6q5" value="A"> NCP SHOW CIRCUIT</label><br>
+  <label><input type="radio" name="m6q5" value="B"> DECNET SHOW LINKS</label><br>
+  <label><input type="radio" name="m6q5" value="C"> NET SHOW DECNET</label><br>
+  <label><input type="radio" name="m6q5" value="D"> SHOW NETWORK/DECNET</label><br>
+  <button class="check-answer" data-question="m6q5" data-correct="A">Check Answer</button>
+  <p id="m6q5-feedback" class="quiz-feedback"></p>
+</div>
 ---
 
 ## Hands‑On Exercises
