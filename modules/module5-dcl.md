@@ -164,3 +164,4 @@ A script using `F$GETJPI` returns blanks.
 ## Answer Key
 The answer key for this module is located at:  
 `answers/module5-answers.md`
+<script src="/assets/js/quiz.js"></script>
