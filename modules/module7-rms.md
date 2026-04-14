@@ -13,35 +13,55 @@ This module introduces the Record Management Services (RMS) architecture used by
 
 ## Exam: Multiple‑Choice Questions
 
-1. **Which RMS file organization stores records sequentially in the order they are written?**  
-   - A. Indexed  
-   - B. Relative  
-   - C. Sequential  
-   - D. Stream  
+<div class="quiz-question">
+  <p><strong>1. Which RMS file organization stores records sequentially in the order they are written?</strong></p>
+  <label><input type="radio" name="m7q1" value="A"> Indexed</label><br>
+  <label><input type="radio" name="m7q1" value="B"> Relative</label><br>
+  <label><input type="radio" name="m7q1" value="C"> Sequential</label><br>
+  <label><input type="radio" name="m7q1" value="D"> Stream</label><br>
+  <button class="check-answer" data-question="m7q1" data-correct="C">Check Answer</button>
+  <p id="m7q1-feedback" class="quiz-feedback"></p>
+</div>
 
-2. **Which record format uses fixed-length records?**  
-   - A. VFC  
-   - B. FIX  
-   - C. VAR  
-   - D. VARYING  
+<div class="quiz-question">
+  <p><strong>2. Which record format uses fixed-length records?</strong></p>
+  <label><input type="radio" name="m7q2" value="A"> VFC</label><br>
+  <label><input type="radio" name="m7q2" value="B"> FIX</label><br>
+  <label><input type="radio" name="m7q2" value="C"> VAR</label><br>
+  <label><input type="radio" name="m7q2" value="D"> VARYING</label><br>
+  <button class="check-answer" data-question="m7q2" data-correct="B">Check Answer</button>
+  <p id="m7q2-feedback" class="quiz-feedback"></p>
+</div>
 
-3. **Which RMS structure contains metadata such as record size, bucket size, and file organization?**  
-   - A. FAB  
-   - B. RAB  
-   - C. XAB  
-   - D. UCB  
+<div class="quiz-question">
+  <p><strong>3. Which RMS structure contains metadata such as record size, bucket size, and file organization?</strong></p>
+  <label><input type="radio" name="m7q3" value="A"> FAB</label><br>
+  <label><input type="radio" name="m7q3" value="B"> RAB</label><br>
+  <label><input type="radio" name="m7q3" value="C"> XAB</label><br>
+  <label><input type="radio" name="m7q3" value="D"> UCB</label><br>
+  <button class="check-answer" data-question="m7q3" data-correct="A">Check Answer</button>
+  <p id="m7q3-feedback" class="quiz-feedback"></p>
+</div>
 
-4. **Which file organization supports multiple keys and indexed access?**  
-   - A. Sequential  
-   - B. Relative  
-   - C. Stream  
-   - D. Indexed  
+<div class="quiz-question">
+  <p><strong>4. Which file organization supports multiple keys and indexed access?</strong></p>
+  <label><input type="radio" name="m7q4" value="A"> Sequential</label><br>
+  <label><input type="radio" name="m7q4" value="B"> Relative</label><br>
+  <label><input type="radio" name="m7q4" value="C"> Stream</label><br>
+  <label><input type="radio" name="m7q4" value="D"> Indexed</label><br>
+  <button class="check-answer" data-question="m7q4" data-correct="D">Check Answer</button>
+  <p id="m7q4-feedback" class="quiz-feedback"></p>
+</div>
 
-5. **Which command displays RMS attributes for a file?**  
-   - A. SHOW FILE/FULL  
-   - B. DIRECTORY/ATTRIBUTES  
-   - C. SHOW RMS  
-   - D. ANALYZE/RMS  
+<div class="quiz-question">
+  <p><strong>5. Which command displays RMS attributes for a file?</strong></p>
+  <label><input type="radio" name="m7q5" value="A"> SHOW FILE/FULL</label><br>
+  <label><input type="radio" name="m7q5" value="B"> DIRECTORY/ATTRIBUTES</label><br>
+  <label><input type="radio" name="m7q5" value="C"> SHOW RMS</label><br>
+  <label><input type="radio" name="m7q5" value="D"> ANALYZE/RMS</label><br>
+  <button class="check-answer" data-question="m7q5" data-correct="A">Check Answer</button>
+  <p id="m7q5-feedback" class="quiz-feedback"></p>
+</div>
 
 ---
 
