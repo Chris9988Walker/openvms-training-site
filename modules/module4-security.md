@@ -158,3 +158,4 @@ A developer requests SYSPRV “to make things easier.”
 ## Answer Key
 The answer key for this module is located at:  
 `answers/module4-answers.md`
+<script src="/assets/js/quiz.js"></script>
