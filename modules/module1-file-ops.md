@@ -148,8 +148,9 @@ An application fails because a file has the wrong record format.
 - `SHOW FILE/FULL`  
 - Identify record format mismatch  
 - Use CONVERT/FDL to rebuild  
-<script src="/assets/js/quiz.js"></script>
+
 ---
 
 ## Answer Key
 Answers are included inline with each question.
+<script src="/assets/js/quiz.js"></script>
