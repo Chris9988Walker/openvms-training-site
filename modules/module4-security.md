@@ -13,36 +13,55 @@ This module covers OpenVMS user account management, privileges, rights identifie
 
 ## Exam: Multiple‑Choice Questions
 
-1. **Which command displays the User Authorization File (UAF) entry for a specific user?**  
-   - A. SHOW USER  
-   - B. SHOW ACCOUNT  
-   - C. SHOW SECURITY  
-   - D. SHOW SYSTEM/USER  
+<div class="quiz-question">
+  <p><strong>1. Which command displays information about a user account?</strong></p>
+  <label><input type="radio" name="m4q1" value="A"> SHOW USER</label><br>
+  <label><input type="radio" name="m4q1" value="B"> SHOW ACCOUNT</label><br>
+  <label><input type="radio" name="m4q1" value="C"> SHOW RIGHTS</label><br>
+  <label><input type="radio" name="m4q1" value="D"> DIRECTORY/USER</label><br>
+  <button class="check-answer" data-question="m4q1" data-correct="A">Check Answer</button>
+  <p id="m4q1-feedback" class="quiz-feedback"></p>
+</div>
 
-2. **Which utility is used to create, modify, or delete user accounts?**  
-   - A. AUTHORIZE  
-   - B. SYSMAN  
-   - C. SET SECURITY  
-   - D. SET RIGHTS  
+<div class="quiz-question">
+  <p><strong>2. Which utility is used to create and modify OpenVMS user accounts?</strong></p>
+  <label><input type="radio" name="m4q2" value="A"> AUTHORIZE</label><br>
+  <label><input type="radio" name="m4q2" value="B"> SYSMAN</label><br>
+  <label><input type="radio" name="m4q2" value="C"> SYSGEN</label><br>
+  <label><input type="radio" name="m4q2" value="D"> SET USER</label><br>
+  <button class="check-answer" data-question="m4q2" data-correct="A">Check Answer</button>
+  <p id="m4q2-feedback" class="quiz-feedback"></p>
+</div>
 
-3. **Which privilege allows a user to change system parameters using SYSGEN?**  
-   - A. SYSPRV  
-   - B. CMKRNL  
-   - C. OPER  
-   - D. SYSNAM  
+<div class="quiz-question">
+  <p><strong>3. Which privilege allows a user to execute code in kernel mode?</strong></p>
+  <label><input type="radio" name="m4q3" value="A"> SYSPRV</label><br>
+  <label><input type="radio" name="m4q3" value="B"> CMKRNL</label><br>
+  <label><input type="radio" name="m4q3" value="C"> OPER</label><br>
+  <label><input type="radio" name="m4q3" value="D"> GRPNAM</label><br>
+  <button class="check-answer" data-question="m4q3" data-correct="B">Check Answer</button>
+  <p id="m4q3-feedback" class="quiz-feedback"></p>
+</div>
 
-4. **Which command displays all rights identifiers granted to the current process?**  
-   - A. SHOW RIGHTS  
-   - B. SHOW IDENTIFIER  
-   - C. SHOW PROCESS/RIGHTS  
-   - D. SHOW SECURITY/IDENTIFIER  
+<div class="quiz-question">
+  <p><strong>4. Which command displays rights identifiers for a user?</strong></p>
+  <label><input type="radio" name="m4q4" value="A"> SHOW RIGHTS</label><br>
+  <label><input type="radio" name="m4q4" value="B"> SHOW IDENTIFIER</label><br>
+  <label><input type="radio" name="m4q4" value="C"> AUTHORIZE SHOW/RIGHTS</label><br>
+  <label><input type="radio" name="m4q4" value="D"> SHOW USER/FULL</label><br>
+  <button class="check-answer" data-question="m4q4" data-correct="A">Check Answer</button>
+  <p id="m4q4-feedback" class="quiz-feedback"></p>
+</div>
 
-5. **Which command displays the Access Control List (ACL) for a file?**  
-   - A. SHOW FILE/ACL  
-   - B. SHOW SECURITY/ACL  
-   - C. DIRECTORY/ACL  
-   - D. SHOW RIGHTS/ACL  
-
+<div class="quiz-question">
+  <p><strong>5. Which command displays the Access Control List (ACL) for a file?</strong></p>
+  <label><input type="radio" name="m4q5" value="A"> SHOW FILE/ACL</label><br>
+  <label><input type="radio" name="m4q5" value="B"> DIRECTORY/SECURITY</label><br>
+  <label><input type="radio" name="m4q5" value="C"> ANALYZE/ACL</label><br>
+  <label><input type="radio" name="m4q5" value="D"> SHOW SECURITY</label><br>
+  <button class="check-answer" data-question="m4q5" data-correct="A">Check Answer</button>
+  <p id="m4q5-feedback" class="quiz-feedback"></p>
+</div>
 ---
 
 ## Hands‑On Exercises
