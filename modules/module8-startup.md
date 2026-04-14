@@ -13,35 +13,55 @@ This module covers the OpenVMS startup and shutdown sequence, system parameter m
 
 ## Exam: Multiple‑Choice Questions
 
-1. **Which file controls the system startup sequence on OpenVMS?**  
-   - A. SYS$SYSTEM:STARTUP.COM  
-   - B. SYS$MANAGER:SYSTARTUP_VMS.COM  
-   - C. SYS$STARTUP:BOOTSTRAP.COM  
-   - D. SYS$SYSTEM:INIT.COM  
+<div class="quiz-question">
+  <p><strong>1. Which file controls the system startup sequence on OpenVMS?</strong></p>
+  <label><input type="radio" name="m8q1" value="A"> SYS$SYSTEM:STARTUP.COM</label><br>
+  <label><input type="radio" name="m8q1" value="B"> SYS$MANAGER:SYSTARTUP_VMS.COM</label><br>
+  <label><input type="radio" name="m8q1" value="C"> SYS$STARTUP:BOOTSTRAP.COM</label><br>
+  <label><input type="radio" name="m8q1" value="D"> SYS$SYSTEM:INIT.COM</label><br>
+  <button class="check-answer" data-question="m8q1" data-correct="B">Check Answer</button>
+  <p id="m8q1-feedback" class="quiz-feedback"></p>
+</div>
 
-2. **Which command cleanly shuts down an OpenVMS system?**  
-   - A. STOP/ID=0  
-   - B. SHUTDOWN  
-   - C. SYS$SYSTEM:HALT  
-   - D. SYSMAN SHUTDOWN  
+<div class="quiz-question">
+  <p><strong>2. Which command cleanly shuts down an OpenVMS system?</strong></p>
+  <label><input type="radio" name="m8q2" value="A"> STOP/ID=0</label><br>
+  <label><input type="radio" name="m8q2" value="B"> SHUTDOWN</label><br>
+  <label><input type="radio" name="m8q2" value="C"> SYS$SYSTEM:HALT</label><br>
+  <label><input type="radio" name="m8q2" value="D"> SYSMAN SHUTDOWN</label><br>
+  <button class="check-answer" data-question="m8q2" data-correct="B">Check Answer</button>
+  <p id="m8q2-feedback" class="quiz-feedback"></p>
+</div>
 
-3. **Which utility is used to modify system parameters such as memory, quotas, and I/O settings?**  
-   - A. SYSMAN  
-   - B. SYSGEN  
-   - C. AUTHORIZE  
-   - D. STARTUP  
+<div class="quiz-question">
+  <p><strong>3. Which utility is used to modify system parameters such as memory, quotas, and I/O settings?</strong></p>
+  <label><input type="radio" name="m8q3" value="A"> SYSMAN</label><br>
+  <label><input type="radio" name="m8q3" value="B"> SYSGEN</label><br>
+  <label><input type="radio" name="m8q3" value="C"> AUTHORIZE</label><br>
+  <label><input type="radio" name="m8q3" value="D"> STARTUP</label><br>
+  <button class="check-answer" data-question="m8q3" data-correct="B">Check Answer</button>
+  <p id="m8q3-feedback" class="quiz-feedback"></p>
+</div>
 
-4. **Which command displays the current system parameters?**  
-   - A. SHOW PARAMETER  
-   - B. SYSGEN SHOW  
-   - C. SYSMAN SHOW PARAMETER  
-   - D. SYSGEN> SHOW  
+<div class="quiz-question">
+  <p><strong>4. Which command displays the current system parameters?</strong></p>
+  <label><input type="radio" name="m8q4" value="A"> SHOW PARAMETER</label><br>
+  <label><input type="radio" name="m8q4" value="B"> SYSGEN SHOW</label><br>
+  <label><input type="radio" name="m8q4" value="C"> SYSMAN SHOW PARAMETER</label><br>
+  <label><input type="radio" name="m8q4" value="D"> SYSGEN&gt; SHOW</label><br>
+  <button class="check-answer" data-question="m8q4" data-correct="D">Check Answer</button>
+  <p id="m8q4-feedback" class="quiz-feedback"></p>
+</div>
 
-5. **Which file contains layered product startup procedures?**  
-   - A. SYS$STARTUP:PRODUCTS.COM  
-   - B. SYS$MANAGER:SYCONFIG.COM  
-   - C. SYS$MANAGER:SYSTARTUP_VMS.COM  
-   - D. SYS$STARTUP:VMS$LAYERED.COM  
+<div class="quiz-question">
+  <p><strong>5. Which file contains layered product startup procedures?</strong></p>
+  <label><input type="radio" name="m8q5" value="A"> SYS$STARTUP:PRODUCTS.COM</label><br>
+  <label><input type="radio" name="m8q5" value="B"> SYS$MANAGER:SYCONFIG.COM</label><br>
+  <label><input type="radio" name="m8q5" value="C"> SYS$MANAGER:SYSTARTUP_VMS.COM</label><br>
+  <label><input type="radio" name="m8q5" value="D"> SYS$STARTUP:VMS$LAYERED.COM</label><br>
+  <button class="check-answer" data-question="m8q5" data-correct="B">Check Answer</button>
+  <p id="m8q5-feedback" class="quiz-feedback"></p>
+</div>
 
 ---
 
