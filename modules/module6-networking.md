@@ -161,3 +161,4 @@ A node cannot communicate with DECnet peers.
 ## Answer Key
 The answer key for this module is located at:  
 `answers/module6-answers.md`
+<script src="/assets/js/quiz.js"></script>
