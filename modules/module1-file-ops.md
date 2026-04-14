@@ -13,41 +13,55 @@ This module covers essential OpenVMS file and directory operations used daily by
 
 ## Exam: Multiple‑Choice Questions
 
-1. **Which command recursively searches all subdirectories for a file named DATA.LOG?**  
-   - A. DIRECTORY [...]DATA.LOG  
-   - B. SHOW FILE DATA.LOG  
-   - C. DIRECTORY DATA.LOG  
-   - D. SEARCH DATA.LOG  
-   **Answer:** A
+<div class="quiz-question">
+  <p><strong>1. Which command recursively searches all subdirectories for a file named DATA.LOG?</strong></p>
+  <label><input type="radio" name="m1q1" value="A"> DIRECTORY [...]DATA.LOG</label><br>
+  <label><input type="radio" name="m1q1" value="B"> SHOW FILE DATA.LOG</label><br>
+  <label><input type="radio" name="m1q1" value="C"> DIRECTORY DATA.LOG</label><br>
+  <label><input type="radio" name="m1q1" value="D"> SEARCH DATA.LOG</label><br>
+  <button class="check-answer" data-question="m1q1" data-correct="A">Check Answer</button>
+  <p id="m1q1-feedback" class="quiz-feedback"></p>
+</div>
 
-2. **Which command displays all versions of a file named REPORT.TXT?**  
-   - A. SEARCH REPORT.TXT;*  
-   - B. DIRECTORY/ALL REPORT.TXT  
-   - C. DIRECTORY REPORT.TXT;*  
-   - D. SHOW FILE REPORT.TXT  
-   **Answer:** C
+<div class="quiz-question">
+  <p><strong>2. Which command displays all versions of a file named REPORT.TXT?</strong></p>
+  <label><input type="radio" name="m1q2" value="A"> SEARCH REPORT.TXT;*</label><br>
+  <label><input type="radio" name="m1q2" value="B"> DIRECTORY/ALL REPORT.TXT</label><br>
+  <label><input type="radio" name="m1q2" value="C"> DIRECTORY REPORT.TXT;*</label><br>
+  <label><input type="radio" name="m1q2" value="D"> SHOW FILE REPORT.TXT</label><br>
+  <button class="check-answer" data-question="m1q2" data-correct="C">Check Answer</button>
+  <p id="m1q2-feedback" class="quiz-feedback"></p>
+</div>
 
-3. **Which command shows detailed file attributes such as record format and allocation?**  
-   - A. SHOW DEFAULT  
-   - B. SHOW FILE/FULL filename  
-   - C. DIRECTORY/DATE filename  
-   - D. SHOW STATUS filename  
-   **Answer:** B
+<div class="quiz-question">
+  <p><strong>3. Which command shows detailed file attributes such as record format and allocation?</strong></p>
+  <label><input type="radio" name="m1q3" value="A"> SHOW DEFAULT</label><br>
+  <label><input type="radio" name="m1q3" value="B"> SHOW FILE/FULL filename</label><br>
+  <label><input type="radio" name="m1q3" value="C"> DIRECTORY/DATE filename</label><br>
+  <label><input type="radio" name="m1q3" value="D"> SHOW STATUS filename</label><br>
+  <button class="check-answer" data-question="m1q3" data-correct="B">Check Answer</button>
+  <p id="m1q3-feedback" class="quiz-feedback"></p>
+</div>
 
-4. **Which wildcard pattern lists all files beginning with LOG and ending in .DAT?**  
-   - A. LOG*.DAT  
-   - B. [LOG]*.DAT  
-   - C. *LOG.DAT  
-   - D. LOG?.DAT  
-   **Answer:** A
+<div class="quiz-question">
+  <p><strong>4. Which wildcard pattern lists all files beginning with LOG and ending in .DAT?</strong></p>
+  <label><input type="radio" name="m1q4" value="A"> LOG*.DAT</label><br>
+  <label><input type="radio" name="m1q4" value="B"> [LOG]*.DAT</label><br>
+  <label><input type="radio" name="m1q4" value="C"> *LOG.DAT</label><br>
+  <label><input type="radio" name="m1q4" value="D"> LOG?.DAT</label><br>
+  <button class="check-answer" data-question="m1q4" data-correct="A">Check Answer</button>
+  <p id="m1q4-feedback" class="quiz-feedback"></p>
+</div>
 
-5. **Which BACKUP command creates a saveset of the entire DISK$DATA volume?**  
-   - A. BACKUP/LOG DISK$DATA:*.* DATA.BCK  
-   - B. BACKUP/VERIFY DISK$DATA: DATA.BCK  
-   - C. BACKUP/IMAGE DISK$DATA: DATA.BCK  
-   - D. BACKUP DISK$DATA:*.* DATA.BCK/SAVE  
-   **Answer:** C
-
+<div class="quiz-question">
+  <p><strong>5. Which BACKUP command creates a saveset of the entire DISK$DATA volume?</strong></p>
+  <label><input type="radio" name="m1q5" value="A"> BACKUP/LOG DISK$DATA:. DATA.BCK</label><br>
+  <label><input type="radio" name="m1q5" value="B"> BACKUP/VERIFY DISK$DATA: DATA.BCK</label><br>
+  <label><input type="radio" name="m1q5" value="C"> BACKUP/IMAGE DISK$DATA: DATA.BCK</label><br>
+  <label><input type="radio" name="m1q5" value="D"> BACKUP DISK$DATA:. DATA.BCK/SAVE</label><br>
+  <button class="check-answer" data-question="m1q5" data-correct="C">Check Answer</button>
+  <p id="m1q5-feedback" class="quiz-feedback"></p>
+</div>
 ---
 
 ## Hands‑On Exercises
