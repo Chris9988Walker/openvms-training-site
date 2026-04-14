@@ -13,36 +13,55 @@ This module covers the essential tools and commands used to monitor, diagnose, a
 
 ## Exam: Multiple‑Choice Questions
 
-1. **Which command displays all devices, including disks, tapes, and virtual devices, along with their current status?**  
-   - A. SHOW VOLUME  
-   - B. SHOW SYSTEM  
-   - C. SHOW DEVICE  
-   - D. SHOW STORAGE  
+<div class="quiz-question">
+  <p><strong>1. Which command displays I/O, CPU, and process information for devices?</strong></p>
+  <label><input type="radio" name="m2q1" value="A"> SHOW SYSTEM</label><br>
+  <label><input type="radio" name="m2q1" value="B"> SHOW PROCESS/ALL</label><br>
+  <label><input type="radio" name="m2q1" value="C"> SHOW DEVICE</label><br>
+  <label><input type="radio" name="m2q1" value="D"> MONITOR IO</label><br>
+  <button class="check-answer" data-question="m2q1" data-correct="C">Check Answer</button>
+  <p id="m2q1-feedback" class="quiz-feedback"></p>
+</div>
 
-2. **Which utility is used to examine low‑level system structures such as process control blocks and locks?**  
-   - A. ANALYZE/SYSTEM  
-   - B. MONITOR SYSTEM  
-   - C. SHOW PROCESS/FULL  
-   - D. ANALYZE/ERROR  
+<div class="quiz-question">
+  <p><strong>2. Which utility provides low-level system analysis and crash dump examination?</strong></p>
+  <label><input type="radio" name="m2q2" value="A"> ANALYZE/SYSTEM</label><br>
+  <label><input type="radio" name="m2q2" value="B"> MONITOR SYSTEM</label><br>
+  <label><input type="radio" name="m2q2" value="C"> SHOW ERROR</label><br>
+  <label><input type="radio" name="m2q2" value="D"> SDA/CRASH</label><br>
+  <button class="check-answer" data-question="m2q2" data-correct="A">Check Answer</button>
+  <p id="m2q2-feedback" class="quiz-feedback"></p>
+</div>
 
-3. **Which command displays the current CPU usage, process count, and system load?**  
-   - A. SHOW PROCESS  
-   - B. MONITOR SYSTEM  
-   - C. SHOW CPU  
-   - D. SHOW PERFORMANCE  
+<div class="quiz-question">
+  <p><strong>3. Which command provides a rolling view of system performance metrics?</strong></p>
+  <label><input type="radio" name="m2q3" value="A"> SHOW SYSTEM</label><br>
+  <label><input type="radio" name="m2q3" value="B"> MONITOR SYSTEM</label><br>
+  <label><input type="radio" name="m2q3" value="C"> ANALYZE/SYSTEM</label><br>
+  <label><input type="radio" name="m2q3" value="D"> SHOW MEMORY</label><br>
+  <button class="check-answer" data-question="m2q3" data-correct="B">Check Answer</button>
+  <p id="m2q3-feedback" class="quiz-feedback"></p>
+</div>
 
-4. **Which command shows the most recent entries from the system error log?**  
-   - A. SHOW EVENT  
-   - B. SHOW LOG/ERROR  
-   - C. SHOW ERROR  
-   - D. SHOW MESSAGE  
+<div class="quiz-question">
+  <p><strong>4. Which command displays recent hardware and system error log entries?</strong></p>
+  <label><input type="radio" name="m2q4" value="A"> SHOW LOG</label><br>
+  <label><input type="radio" name="m2q4" value="B"> ANALYZE/ERROR</label><br>
+  <label><input type="radio" name="m2q4" value="C"> SHOW ERROR</label><br>
+  <label><input type="radio" name="m2q4" value="D"> MONITOR ERROR</label><br>
+  <button class="check-answer" data-question="m2q4" data-correct="C">Check Answer</button>
+  <p id="m2q4-feedback" class="quiz-feedback"></p>
+</div>
 
-5. **Which process state indicates that a process is waiting for a resource such as a lock or I/O completion?**  
-   - A. COM  
-   - B. LEF  
-   - C. HIB  
-   - D. CUR  
-
+<div class="quiz-question">
+  <p><strong>5. Which type of image is typically used for performance monitoring tools?</strong></p>
+  <label><input type="radio" name="m2q5" value="A"> EXE</label><br>
+  <label><input type="radio" name="m2q5" value="B"> LEF</label><br>
+  <label><input type="radio" name="m2q5" value="C"> SYS</label><br>
+  <label><input type="radio" name="m2q5" value="D"> DMP</label><br>
+  <button class="check-answer" data-question="m2q5" data-correct="B">Check Answer</button>
+  <p id="m2q5-feedback" class="quiz-feedback"></p>
+</div>
 ---
 
 ## Hands‑On Exercises
